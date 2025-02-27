@@ -1,40 +1,4 @@
----
-sort: 1
----
-
 # Webアプリケーション開発 授業概要
-
-## Webアプリケーションについて
-
-- クライアント側に特別なアプリは不要でWebブラウザのみあればよい
-- クライアントからリクエストを送信
-- サーバはリクエストを処理し、レスポンスを返す
-![](./images/04.Webアプリケーションとは.jpg)
-
-### 基本技術
-
-- Webアプリケーションは、次の技術がベースとなる
-  - WWW（World  Wide  Web）
-  - HTML（Hyper Text Markup Language）
-  - TCP/IP（Transmission Control ProtocolとInternet Protocol）
-  - HTTP（Hyper Text Transfer Protocol）
-  <img src="https://github.com/2024Web1/web_app_dev/blob/main/orientation/images/05.Web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E5%9F%BA%E6%9C%AC%E6%8A%80%E8%A1%93.jpg?raw=true">
-
-### 進化の歴史
-
-1. 最初はサーバーに保存されている静的コンテンツしかレスポンスできなかった
-<img src="https://github.com/2024Web1/web_app_dev/blob/main/orientation/images/07.Web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E9%80%B2%E5%8C%96.jpg?raw=true">
-
-2. その後、リクエスト時にデータを送信し、それに応じて動的コンテンツをレスポンスできるようになった
-<img src="https://github.com/2024Web1/web_app_dev/blob/main/orientation/images/08.Web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E9%80%B2%E5%8C%96.jpg?raw=true">
-<br>
-<br>
-動的コンテンツの例：Amazon(ログイン前)
-<img src="https://github.com/2024Web1/web_app_dev/blob/main/orientation/images/09.Amazon(%E5%89%8D).jpeg?raw=true">
-<br>
-<br>
-動的コンテンツの例：Amazon(ログイン後)
-<img src="https://github.com/2024Web1/web_app_dev/blob/main/orientation/images/10.Amazon(%E5%BE%8C).jpeg?raw=true">
 
 ## サーバーサイドプログラム
 
