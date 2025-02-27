@@ -9,7 +9,7 @@ sort: 1
 - クライアント側に特別なアプリは不要でWebブラウザのみあればよい
 - クライアントからリクエストを送信
 - サーバはリクエストを処理し、レスポンスを返す
-<img src="https://github.com/2024Web1/web_app_dev/blob/main/orientation/images/04.Web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%A8%E3%81%AF.jpg?raw=true">
+![](./images/04.Webアプリケーションとは.jpg)
 
 ### 基本技術
 
