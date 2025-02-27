@@ -1,47 +1,5 @@
 # Webアプリケーション開発 授業概要
 
-## サーバーサイドプログラム
-
-- サーバー側で動作するプログラム
-- クライアントから送られてきたデータを処理し、処理結果をクライアントに返信する
-<img src="https://github.com/2024Web1/web_app_dev/blob/main/orientation/images/11.%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0.jpg?raw=true">
-
-### PHP
-
-- 1995年に誕生したオープンソースの汎用プログラミング言語
-- コンパイル不要のスクリプト言語
-- サーバーサイドで動的なウェブページを作成
-- PHPの由来である“PHP:Hypertext Preprocessor”には、「Webページを構成するHTML(Hypertext)」を「事前に作り出す」という意味がある<br>
-<img src="https://github.com/2024Web1/web_app_dev/blob/main/orientation/images/14.PHP.png?raw=true">
-
-### Apache
-
-- 世界中でもっとも多く使われているWebサーバソフトウェア
-- 大規模な商用サイトから自宅サーバまで幅広く利用されている
-- 開発は、Apacheソフトウェア財団のApache Licenseの下でソースコードが公開および配布されている代表的なオープンソースソフトウェアの一つ<br>
-<img src="https://github.com/2024Web1/web_app_dev/blob/main/orientation/images/15.Apache_1.png?raw=true">
-
-### MySQL
-
-- オープンソースのリレーショナルデータベース管理システム(RDBMS)
-- 幅広いアプリケーションで利用され、豊富なドキュメントとコミュニティサポートあり
-- SQLを使用※忘れている人は2年生のテキスト「スッキリわかるSQL入門」で簡単なselect,insert,update,delete文を要復習！<br>
-![](./images/logo-mysql-170x115.png)
-
-### Docker
-
-- アプリケーションをコンテナとしてパッケージ化し、環境差異を気にせずにどこでも実行できるオープンソースのプラットフォーム
-- 本授業ではDockerを使用して、PHP、Apache、MySQLを含む開発環境を構築
-- 各サービスを個別のコンテナとして実行し、それらを連携させることで、開発環境を迅速にセットアップ<br>
-![](./images/docker-logo-blue.png)
-  
-### クライアントサイド技術の発展
-
-- 動的コンテンツのレスポンスと同時に、プログラム(JavaScript)も送信し、クライアントサイド(ブラウザ)で実行させるようになった
-- サーバーやネットワークの負荷を軽減するとともに、より高度なUI/UXを実現することができるようになった
-- クライアントサイドプログラム
-  - **HTML、CSS**、JavaScript
-
 ## 教科書・成績評価
 
 - 教科書
