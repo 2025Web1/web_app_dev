@@ -7,7 +7,7 @@ sort: 1
 - クライアント側に特別なアプリは不要でWebブラウザのみあればよい
 - クライアントからリクエストを送信
 - サーバはリクエストを処理し、レスポンスを返す
-![](./images/04.Webアプリケーションとは.jpg){: style="width: 600px;height: auto;" }
+![](./images/04.Webアプリケーションとは.jpg){: style="width: 720px;height: auto;" }
 
 ## 基本技術
 
