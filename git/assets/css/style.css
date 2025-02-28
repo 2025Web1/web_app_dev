@@ -1,8 +1,0 @@
-.img {
-    max-width: 100%;
-    /* 親要素の幅に合わせて拡大縮小 */
-    max-height: 300px;
-    /* 高さを最大300pxに制限 */
-    object-fit: contain;
-    /* 画像が枠内に収まるように調整 */
-}

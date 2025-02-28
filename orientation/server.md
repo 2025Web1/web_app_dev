@@ -6,7 +6,7 @@ sort: 2
 
 - サーバー側で動作するプログラム
 - クライアントから送られてきたデータを処理し、処理結果をクライアントに返信する
-![](./images/11.サーバーサイドプログラム.jpg)
+![](./images/11.サーバーサイドプログラム.jpg){: style="width: 510px;height: auto;" }
 
 ## PHP
 
@@ -14,7 +14,7 @@ sort: 2
 - コンパイル不要のスクリプト言語
 - サーバー側で動的なウェブページを作成
 - PHPの由来である“PHP:Hypertext Preprocessor”には、「Webページを構成するHTML(Hypertext)」を「事前に作り出す」という意味がある<br>
-![](./images/14.PHP.png)
+![](./images/14.PHP.png){: style="width: 510px;height: auto;" }
 
 ## Apache
 
