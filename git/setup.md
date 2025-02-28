@@ -12,7 +12,7 @@ VSCodeは拡張性の高いテキストエディタで、多数のプラグイ�
 Visual Studio Code(以下、「VSCode」と呼ぶ)のWebサイトにアクセスし、ダウンロードしてください。
 2022年4月11日時点では、`VSCodeUserSetup-x64-1.66.1.exe`がダウンロードできます。
 インストールサイトは[こちら。](https://code.visualstudio.com/Download)<br>
-![](./images/Aspose.Words.a262145e-b3c2-4e51-a607-826ad36f58eb.001.png){: style="width: 510px;height: auto;object-fit: contain" }
+![](./images/Aspose.Words.a262145e-b3c2-4e51-a607-826ad36f58eb.001.png){: style="width: 510px;height: auto;" }
 
 1. インストーラの実行<br>
 ダウンロードしたファイルをダブルクリックし、インストーラを起動してください。
@@ -69,7 +69,7 @@ winget install --id Git.Git
 `git --version`コマンドを実行した際、`‘git’ is not recognized as an internal or external command`とエラーになることがあります。環境変数がなぜか設定されていない可能性があるので、下記画像を参照に設定してください。
 
 1. Windowsキー → `environ` と入力 → 「システム環境変数の編集」をクリック
-![](./images/git_pass1.jpg){: style="max-width: 360px;max-height: 240px;object-fit: contain" }
+![](./images/git_pass1.jpg){: style="width: 510px;height: auto;" }
 
 2. 環境変数を押す<br>
 <img src="./images/git_pass2.jpg" width="40%">
