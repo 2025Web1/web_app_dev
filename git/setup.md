@@ -63,7 +63,7 @@ winget install --id Git.Git
 
 正しくインストールされたか確認したいときは、`git --version`でバージョン(例:`git version X.XX.X`)が表示されればOKです。<br>
 
-```warning
+```note
 ### インストールしたけどgitコマンドが見つからない場合
 
 `git --version`コマンドを実行した際、`‘git’ is not recognized as an internal or external command`とエラーになることがあります。環境変数がなぜか設定されていない可能性があるので、下記画像を参照に設定してください。
