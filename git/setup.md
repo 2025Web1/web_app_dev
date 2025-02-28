@@ -71,36 +71,34 @@ winget install --id Git.Git
 1. Windowsキー → `environ` と入力 → 「システム環境変数の編集」をクリック
 ![](./images/git_pass1.jpg){: style="width: 510px;height: auto;" }
 
-2. 環境変数を押す<br>
+2. 環境変数をクリック<br>
 ![](./images/git_pass2.jpg){: style="width: 510px;height: auto;" }
 
-3. 下部のシステム環境変数の`Path`の行を選択し、編集を押す。<br>
+3. 下部のシステム環境変数の`Path`の行を選択し、編集をクリック<br>
 ![](./images/environment.jpg){: style="width: 510px;height: auto;" }
 
-4. 新規をクリックし、`C:¥Program Files¥Git¥cmd`を追加する。赤枠内のように設定できればOK。<br>
+4. 新規をクリックし、`C:¥Program Files¥Git¥cmd`を追加し、赤枠内のように設定できればOK<br>
 ![](./images/git_pass3.jpg){: style="width: 510px;height: auto;" }
 
-5. PowerShellもしくはコマンドプロンプトを再起動し、`git --version`を実行し、バージョンが表示されればOK。
+5. PowerShellもしくはコマンドプロンプトを再起動し、`git --version`を実行し、バージョンが表示されればOK
 ```
 
-### GitHub
+## GitHubアカウント作成(※既にGitHubアカウントを作成済の方は不要)
 
-GitHub はGitリポジトリのホスティングサービスです。
+GitHubはGitリポジトリのホスティングサービスです。
+離れた場所のメンバーと開発を行ったり、ソースを世界中に公開したりできることから、多くの開発者に利用されています。
+※以下の画像は昨年度のものですが、基本的な流れは変わりません。
 
-インターネット上にリモートリポジトリを用意することで、離れた場所にいるメンバー同士で開発を行ったり、ソースコードを世界中に公開することができます。
-
-### GitHubアカウント作成(※既にGitHubアカウントを作成済の方は不要)
-
-1. GitHubのサイトにアクセスしてください。[GitHubのサイトはこちら](https://github.co.jp/)<img src="https://github.com/2024Web1/web_app_dev/blob/main/git/images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.003.png?raw=true">
-2. 画面中央付近にある、緑色のGithub に登録するボタンをクリックしてください。
-3. ここから先はUIが英語になります。ユーザー名、メールアドレス、パスワードを入力してください。
-4. Verify your accountから指示に従ってアカウント認証を行ってください。<img src="https://github.com/2024Web1/web_app_dev/blob/main/git/images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.004.png?raw=true">
-5. 認証が完了したらCreateaccountボタンをクリックします。
-6. 登録したメールアドレス宛にEnter codeが送られてきますので、そちらを入力します。
-7. アンケートに答えてください。(2回あります。)※アンケートが表示されない場合もあるので、その時はこの作業は無視してください。<br><img src="https://github.com/2024Web1/web_app_dev/blob/main/git/images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.005.png?raw=true"><br>
-8. プランの選択画面になりますので、Free(左側)を 選択しましょう。プランはあとから変更できます。※プランの選択画面が表示されない場合もあるので、その時はこの作業は無視してください。<br>
-<img src="https://github.com/2024Web1/web_app_dev/blob/main/git/images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.007.jpeg?raw=true">
-
-1. 登録完了です。
-
-<div style="page-break-before:always"></div>
+1. GitHubのサイトにアクセス[GitHubのサイトはこちら](https://github.co.jp/)<br>
+   ![](.images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.003.png){: style="width: 660px;height: auto;" }
+2. 画面中央付近にある、緑色のGithub に登録するボタンをクリック
+3. ここから先はUIが英語になります。ユーザー名、メールアドレス、パスワードを入力
+4. Verify your accountから指示に従ってアカウント認証を行う<br>
+   ![](.images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.004.png){: style="width: 660px;height: auto;" }
+5. 認証が完了したらCreateaccountボタンをクリック
+6. 登録したメールアドレス宛にEnter codeが送られてきますので、そちらを入力
+7. アンケートに回答(※アンケートが表示されない場合もあるので、その時はこの作業は無視)<br>
+   ![](.images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.005.png){: style="width: 660px;height: auto;" }
+8. プランの選択画面になりますので、Free(左側)を選択(※プランの選択画面が表示されない場合もあるので、その時はこの作業は無視)<br>
+    ![](.images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.007.jpeg){: style="width: 660px;height: auto;" }
+9. 登録完了
