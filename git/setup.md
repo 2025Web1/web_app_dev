@@ -12,7 +12,7 @@ VSCodeは拡張性の高いテキストエディタで、多数のプラグイ�
 Visual Studio Code(以下、「VSCode」と呼ぶ)のWebサイトにアクセスし、ダウンロードしてください。
 2022年4月11日時点では、`VSCodeUserSetup-x64-1.66.1.exe`がダウンロードできます。
 インストールサイトは[こちら。](https://code.visualstudio.com/Download)<br>
-![](./images/Aspose.Words.a262145e-b3c2-4e51-a607-826ad36f58eb.001.png){: style="width: 300px; height: auto;" }
+![](./images/Aspose.Words.a262145e-b3c2-4e51-a607-826ad36f58eb.001.png){: style="max-width: 100%;max-height: 300px;object-fit: contain" }
 
 1. インストーラの実行<br>
 ダウンロードしたファイルをダブルクリックし、インストーラを起動してください。
