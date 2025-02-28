@@ -72,13 +72,13 @@ winget install --id Git.Git
 ![](./images/git_pass1.jpg){: style="width: 510px;height: auto;" }
 
 2. 環境変数を押す<br>
-<img src="./images/git_pass2.jpg" width="40%">
+![](./images/git_pass2.jpg){: style="width: 510px;height: auto;" }
 
 3. 下部のシステム環境変数の`Path`の行を選択し、編集を押す。<br>
-<img src="./images/environment.png" width="40%">
+![](./images/environment.jpg){: style="width: 510px;height: auto;" }
 
 4. 新規をクリックし、`C:¥Program Files¥Git¥cmd`を追加する。赤枠内のように設定できればOK。<br>
-<img src="./images/git_pass3.jpg" width="50%">
+![](./images/git_pass3.jpg){: style="width: 510px;height: auto;" }
 
 5. PowerShellもしくはコマンドプロンプトを再起動し、`git --version`を実行し、バージョンが表示されればOK。
 ```
