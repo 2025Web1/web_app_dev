@@ -69,7 +69,7 @@ winget install --id Git.Git
 `git --version`コマンドを実行した際、`‘git’ is not recognized as an internal or external command`とエラーになることがあります。環境変数がなぜか設定されていない可能性があるので、下記画像を参照に設定してください。<br>
 
 1. Windowsキー → `environ` と入力 → システム環境変数の編集<br>
-<img src="./images/git_pass1.jpg" width="50%">
+![](./images/git_pass1.jpg)
 
 2. 環境変数を押す<br>
 <img src="./images/git_pass2.jpg" width="40%">
