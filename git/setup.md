@@ -73,7 +73,7 @@ winget install --id Git.Git
 
 2. 環境変数をクリック
 
-![](./images/git_pass2.jpg){: style="width: 450px;height: auto;" }
+    ![](./images/git_pass2.jpg){: style="width: 450px;height: auto;" }
 
 3. 下部のシステム環境変数の`Path`の行を選択し、編集をクリック
 ![](./images/environment.jpg){: style="width: 510px;height: auto;" }
