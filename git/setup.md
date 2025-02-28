@@ -91,15 +91,15 @@ GitHubはGitリポジトリのホスティングサービスです。
 ※以下の画像は昨年度のものですが、基本的な流れは変わりません。
 
 1. GitHubのサイトにアクセス[GitHubのサイトはこちら](https://github.co.jp/)<br>
-   ![](.images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.003.png){: style="width: 660px;height: auto;" }
+   ![](./images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.003.png){: style="width: 660px;height: auto;" }
 2. 画面中央付近にある、緑色のGithub に登録するボタンをクリック
 3. ここから先はUIが英語になります。ユーザー名、メールアドレス、パスワードを入力
 4. Verify your accountから指示に従ってアカウント認証を行う<br>
-   ![](.images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.004.png){: style="width: 660px;height: auto;" }
+   ![](./images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.004.png){: style="width: 660px;height: auto;" }
 5. 認証が完了したらCreateaccountボタンをクリック
 6. 登録したメールアドレス宛にEnter codeが送られてきますので、そちらを入力
 7. アンケートに回答(※アンケートが表示されない場合もあるので、その時はこの作業は無視)<br>
-   ![](.images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.005.png){: style="width: 660px;height: auto;" }
+   ![](./images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.005.png){: style="width: 660px;height: auto;" }
 8. プランの選択画面になりますので、Free(左側)を選択(※プランの選択画面が表示されない場合もあるので、その時はこの作業は無視)<br>
-    ![](.images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.007.jpeg){: style="width: 660px;height: auto;" }
+    ![](./images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.007.jpeg){: style="width: 660px;height: auto;" }
 9. 登録完了
