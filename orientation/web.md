@@ -7,7 +7,7 @@ sort: 1
 - クライアント側に特別なアプリは不要でWebブラウザのみあればよい
 - クライアントからリクエストを送信
 - サーバはリクエストを処理し、レスポンスを返す
-![](./images/04.Webアプリケーションとは.jpg){: style="width: 690px;height: auto;" }
+![](./images/04.Webアプリケーションとは.jpg){: style="width: 660px;height: auto;" }
 
 ## 基本技術
 
@@ -16,7 +16,7 @@ sort: 1
   - HTML（Hyper Text Markup Language）
   - TCP/IP（Transmission Control ProtocolとInternet Protocol）
   - HTTP（Hyper Text Transfer Protocol）
-  ![](./images/05.Webアプリケーションの基本技術.jpg){: style="width: 690px;height: auto;" }
+  ![](./images/05.Webアプリケーションの基本技術.jpg){: style="width: 660px;height: auto;" }
 
 ## 進化の歴史
 
