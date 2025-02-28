@@ -1,3 +1,6 @@
+---
+sort: 1
+---
 # 環境構築
 
 ## エディタ(Visual Studio Code)のインストール
