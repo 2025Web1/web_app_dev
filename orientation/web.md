@@ -21,16 +21,16 @@ sort: 1
 ## 進化の歴史
 
 1. 最初はサーバーに保存されている静的コンテンツしかレスポンスできなかった
-![](./images/07.Webアプリケーションの進化.jpg)
+![](./images/07.Webアプリケーションの進化.jpg){: style="width: 660px;height: auto;" }
 
 2. その後、リクエスト時にデータを送信し、それに応じて動的コンテンツをレスポンスできるようになった
-![](./images/08.Webアプリケーションの進化.jpg)
+![](./images/08.Webアプリケーションの進化.jpg){: style="width: 660px;height: auto;" }
 
 ## 動的コンテンツの例
 
 動的コンテンツの例：Amazon(ログイン前)
-![](./images/09.Amazon(前).jpeg)
+![](./images/09.Amazon(前).jpeg){: style="width: 660px;height: auto;" }
 <br>
 <br>
 動的コンテンツの例：Amazon(ログイン後)
-![](./images/10.Amazon(後).jpeg)
+![](./images/10.Amazon(後).jpeg){: style="width: 660px;height: auto;" }
