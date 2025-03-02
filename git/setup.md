@@ -34,6 +34,20 @@ Visual Studio Code(以下、「VSCode」と呼ぶ)のWebサイトにアクセス
 VSCodeが起動されればOKです。<br>
 ![](./images/Aspose.Words.a262145e-b3c2-4e51-a607-826ad36f58eb.005.png)
 
+出力に`user.name`と`user.email`の項目があるので、設定したとおりになっていればOKです。
+
+## VSCodeの日本語化プラグインインストール
+
+VSCodeを日本語化する **Japanese Language Pack for Visual Studio Code** というプラグインをインストールします。
+
+1. VSCodeにて、Ctrl+Shift+Xと入力し、拡張機能の検索画面を表示
+1. 検索欄に`japan`と入力
+1. `Japanese Language Pack for Visual Studio Code`のInstallボタンをクリック
+2. インストール後、再起動を求められるので再起動
+3. VSCodeのメニューなどが日本語になっていればOK<br>
+   ※VSCode自体の更新がかかると、度々日本語化が失われるときがあります。
+   その場合は、このプラグインを再インストールするとOKです。
+
 ## Wingetのインストール(Macの方は不要)
 
 WingetはWindows⽤パッケージ管理ツールです。
@@ -83,6 +97,34 @@ winget install --id Git.Git
 
 5. PowerShellもしくはコマンドプロンプトを再起動し、`git --version`を実行し、バージョンが表示されればOK
 ```
+
+## Gitの初期設定
+
+初めてGitを使う方は、名前とメールアドレスを登録しましょう。
+PowerShellもしくはコマンドプロンプトから以下コマンドを実行してください。
+**{}の入力はいりません。自分の名前、メールアドレスは半角英数字で！**
+
+```shell
+git config --global user.name {自分の名前}
+git config --global user.email {メールアドレス}
+```
+
+確認には、以下コマンドを実行します。
+
+```shell
+git config --list
+```
+
+出力に`user.name`と`user.email`の項目があるので、設定したとおりになっていればOKです。
+
+## Git用のVSCodeプラグインをインストール
+
+VSCodeにGit操作をグラフィカルに表示する **Git Graph** プラグインをインストールします。
+
+1. VSCodeにて、`Ctrl+Shift+X`と入力し、拡張機能の検索画面を表示
+2. 検索欄に`Git Graph`と入力
+3. `Git Graph`のInstallボタンをクリック
+4. インストールが完了し、サイドバーにGit Graphのアイコン![](./images/Aspose.Words.aedafcf0-3819-4263-af12-50337a38362b.016.png)が追加されていればOK
 
 ## GitHubアカウント作成(※既にGitHubアカウントを作成済の方は不要)
 
