@@ -9,7 +9,7 @@ CSSは、HTMLで定義された構造にスタイルを適用することで、W
   <head>
     <meta charset="UTF-8">
     <!-- ここから修正 -->
-    <!-- <link rel="stylesheet" href="sample.css"> -->
+    <link rel="stylesheet" href="sample.css">
     <!-- ここまで -->
     <title>サンプルWebページ</title>
   </head>
@@ -60,3 +60,22 @@ CSSは、HTMLで定義された構造にスタイルを適用することで、W
   </body>
 </html>
 ```
+
+お世辞にも綺麗な画面とは言えませんね...<br>
+原因はHTMLに、CSSが反映されていないからです。
+では、CSSを反映しましょう。
+`sample.html`の以下の部分のコメントを外します。
+
+```html:sample.html
+<!-- <link rel="stylesheet" href="sample.css"> -->
+```
+
+コメントの外し方は、該当の行で`Ctrl + /`です。
+コメントを外すと以下のようになります。
+
+```html:sample.html
+<link rel="stylesheet" href="sample.css">
+```
+
+では、もう一度ブラウザで`sample.html`を開いてみてください。CSSが動き、画面が綺麗になりました。<br>
+![](./images/sampleCSS.jpg)

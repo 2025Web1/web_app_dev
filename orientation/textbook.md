@@ -12,6 +12,22 @@ sort: 4
   - [Progate(プロゲート)](https://prog-8.com/dashboard)
   - [paiza](https://paiza.jp/)
 
+## Web資料の用語解説
+
+### note
+
+```note
+```
+
+```tips
+```
+
+```warning
+```
+
+```danger
+```
+
 ## 成績評価
 
 - 期末試験なし

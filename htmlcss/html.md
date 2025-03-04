@@ -43,6 +43,8 @@ cloneした`02_htmlcss-...`は以下の構造をしています。
 ```
 
 入力後、ブラウザで`helloWorld.html`を開いてください。
+エクスプローラ上で、ファイルを右クリック→「プログラムから開く」をクリック→所定のブラウザクリックすると開けます。
+
 以下のように表示されればOKです。
 ![](./images/Hello,World.jpeg){: style="width: 660px;height: auto;" }
 
@@ -59,8 +61,6 @@ VSCodeで`sample.html`を開いてください。
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <!-- コメントを外すと、CSSが有効になります。 -->
-    <!-- <link rel="stylesheet" href="sample.css"> -->
     <title>サンプルWebページ</title>
   </head>
   <body>
@@ -111,93 +111,42 @@ VSCodeで`sample.html`を開いてください。
 </html>
 ```
 
-`sample.css`
-```css:sample.css
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-  padding: 20px;
-}
+`sample.html`をブラウザで開いてみてください。
+以下のように表示されればOKです。
+![](./images/sampleNoCSS.jpg){: style="width: 660px;height: auto;" }
 
-h1 {
-  text-align: center;
-  font-size: 36px;
-  color: #333;
-  margin-bottom: 20px;
-}
+```tips
+### (付録)タグリファレンス
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
+`<!DOCTYPE html>`：HTML文書のバージョンとタイプを指定する宣言です。この宣言がない場合、ブラウザはHTML5として解釈されます。
 
-th, td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: center;
-}
+`<head>`：HTML文書のヘッダーを定義するためのタグです。このタグ内には、文書のタイトル、スタイルシート、JavaScriptファイル、キーワード、説明などのメタデータが含まれます。
 
-th {
-  background-color: #f2f2f2;
-}
+`<meta>`：HTML文書に関する情報を提供するためのタグです。charset属性を使用して、文書の文字エンコーディングを定義することができます。
 
-a {
-  color: #333;
-}
+`<title>`：HTML文書のタイトルを定義するためのタグです。このタグ内に書かれたテキストは、ブラウザのタブや検索エンジンの検索結果などで表示されます。
 
-form {
-  width: 50%;
-  margin: 0 auto;
-}
+`<body>`：HTML文書の本文部分を定義するタグです。通常、ページのほとんどのコンテンツを含むブロック要素として使用されます。
 
-input[type="text"], textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 16px;
-}
+`<h>`：タグはHTMLにおける見出しを定義するためのタグで、1から6までの数字で表される見出しレベルを持ちます。ドキュメントのセクションや節の見出しをマークアップするために使用されます。
 
-input[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
+`<p>`：タグはHTMLにおける段落を定義するタグです。文章やテキストを段落に分けるために使用されます。
 
-input[type="submit"]:hover {
-  background-color: #555;
-}
+`<img>`：画像を表示するためのHTML要素です。src属性に画像ファイルのURLを指定することで、画像を表示できます。
 
-img {
-  max-width: 5%;
-  height: auto;
-}
+`<table>`：表を作成するために使用されるHTML要素です。通常、`<tr>`タグで定義された行と、`<th>`または`<td>`タグで定義された列から構成されます。
+
+`<th>`：表の見出しを表すHTML要素です。このタグで囲まれたテキストは通常太字で表示されます。
+
+`<td>`：表のセルを定義するHTML要素です。このタグで囲まれたテキストは通常標準のフォントで表示されます。
+
+`<a>`：アンカータグとして知られ、他のページやWebサイトへのリンクを作成するために使用されます。href属性にリンク先のURLを指定することで、ユーザーがクリックすると指定されたページに移動します。
+
+`<label>`:HTMLのフォーム要素に関連付けられたラベルを定義するためのタグです。for属性を使用して、ラベルと対象のフォーム要素を関連付けます。
+
+`<form>`：ユーザーからの入力を受け付けるためのHTML要素です。このタグと以下の<`input`>,<`textarea`>に関しては、重要なタグであるため詳しく別の章で説明します。
+
+`<input>`:HTMLのフォーム要素で、ユーザーにテキスト入力やボタンの選択などのインタラクティブな操作を可能にするためのタグです。
+
+`<textarea>`:HTMLのフォーム要素で、複数行のテキストの入力を可能にするためのタグです。
 ```
-
-今度は、`sample.html`をブラウザで開いてみてください。<br>
-![](./images/sampleNoCSS.jpg)
-
-お世辞にも綺麗な画面とは言えませんね...<br>
-原因はHTMLに、CSSが反映されていないからです。
-では、CSSを反映しましょう。
-`sample.html`の以下の部分のコメントを外します。
-
-```html:sample.html
-<!-- <link rel="stylesheet" href="sample.css"> -->
-```
-
-コメントの外し方は、該当の行で`Ctrl + /`です。
-コメントを外すと以下のようになります。
-
-```html:sample.html
-<link rel="stylesheet" href="sample.css">
-```
-
-では、もう一度ブラウザで`sample.html`を開いてみてください。CSSが動き、画面が綺麗になりました。<br>
-![](./images/sampleCSS.jpg)
