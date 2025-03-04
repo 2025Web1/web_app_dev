@@ -1,0 +1,62 @@
+# CSS(Cascading Style Sheets)
+
+Webページの見た目を指定する言語です。
+CSSは、HTMLで定義された構造にスタイルを適用することで、Webページを美しく、見やすくすることができます。
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <!-- ここから修正 -->
+    <!-- <link rel="stylesheet" href="sample.css"> -->
+    <!-- ここまで -->
+    <title>サンプルWebページ</title>
+  </head>
+  <body>
+    <h1>サンプルWebページ</h1>
+    
+    <p>
+      ようこそ、サンプルWebページへ!ここでは、「商品紹介ページ」という設定の元で、HTML&CSSの参考例を見ていきましょう。
+      <img src="pose_gutspose_couple.png" alt="サンプル画像">
+    </p>
+  
+    <table>
+      <tr>
+        <th>商品名</th>
+        <th>説明</th>
+        <th>金額</th>
+      </tr>
+      <tr>
+        <td>商品 A</td>
+        <td>お求めやすい金額の商品です。</td>
+        <td>¥300</td>
+      </tr>
+      <tr>
+        <td>商品 B</td>
+        <td>一般的な金額の商品です。</td>
+        <td>¥3,000</td>
+      </tr>
+      <tr>
+        <td>商品 C</td>
+        <td>高級な金額の商品です。</td>
+        <td>¥30,000</td>
+      </tr>
+    </table>
+    
+    <p>ご不明な点がございましたらお問合せください。 
+      <a href="https://www.kobedenshi.ac.jp/">詳細はこちら</a>
+    </p>
+    
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <input type="submit" value="Send">
+    </form>
+  </body>
+</html>
+```

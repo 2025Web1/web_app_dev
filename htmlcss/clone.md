@@ -15,10 +15,10 @@ sort: 1
 1. [こちらのリンク]()からコードをclone
    ※認証を求められた場合は、GitHubアカウントでログインしてください。
 2. 以下の画面で「Accept the assignment」をクリック
-    ![](./images/accept_the_assignment.png)
+    ![](./images/accept_the_assignment.png){: style="width: 660px;height: auto;" }
 3. リポジトリリンク(水色背景行)をクリックし、課題用に作成されたリポジトリにアクセス
    ※この画面にならない場合は、ブラウザをリロードしてください。<br>
-    ![](./images/repository_link.png)
+    ![](./images/repository_link.png){: style="width: 660px;height: auto;" }
 4. 緑のボタン(<>Code)をクリックし、HTTPSタブをクリック後、コピー用ボタンでclone用のURLをコピー
 
 ## VSCode(Visual Studio Code)でコードをclone
