@@ -1,3 +1,7 @@
+---
+sort: 3
+---
+
 # GitHub Classroom①
 
 本授業では、 **GitHub Classroom** を利用してコードの取得や課題提出をします。
