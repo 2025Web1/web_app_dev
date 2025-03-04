@@ -7,14 +7,12 @@ sort: 3
 本授業では、 **GitHub Classroom** を利用してコードの取得や課題提出をします。
 GitHub Classroomは、GitHubを利用した課題管理ツールで、課題の提出や採点を効率的に行うことができるサービスです。
 
-## GitHub Classroomからコードを取得
+## GitHub Classroomからコードを取得(clone)
 
-GitHub Classroomからコードを取得しましょう。
+![](./images/git_image_clone.jpg){: style="width: 660px;height: auto;" }
+
+GitHub Classroomからコードを取得します。
 今後も章が進むたびに、この手順を繰り返すので、慣れるようにしましょう。
-
-```note
-GitHubからコードを取得することを **clone(クローン)** と言います。
-```
 
 1. 本授業のコード保管用フォルダ`¥web_app_dev`を、Cドライブ直下に作成
 2. [こちらのリンク]()にアクセス<br>

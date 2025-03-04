@@ -9,6 +9,8 @@ sort: 4
 
 ## ファイルの変更をステージングエリアに追加(add)
 
+![](./images/git_image_add.jpg){: style="width: 660px;height: auto;" }
+
 1. 課題として提出するフォルダをVSCodeで開く<br>
    VSCodeのメニューから「ファイル->フォルダーを開く」を選択し、`C:¥web_app_dev¥01-git...`を選択してください。
 2. `kadai.txt`を開き、「A.」の横に好きな食べ物を入力し、保存する
@@ -18,6 +20,8 @@ sort: 4
 5. `kadai.txt`がステージされている変更に移動していれば、addは成功
 
 ## ファイルの変更をコミット(commit)
+
+![](./images/git_image_commit.jpg){: style="width: 660px;height: auto;" }
 
 commitを行うためには、変更理由を記録する必要があります。
 最初に変更理由の記録からはじめます。
@@ -36,6 +40,8 @@ commitメッセージを入れ忘れると、commitができません。
 ```
 
 ## GitHub Classroomに提出(push)
+
+![](./images/git_image_push.jpg){: style="width: 660px;height: auto;" }
 
 あとは課題を提出するのみです。
 
