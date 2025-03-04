@@ -44,7 +44,7 @@ cloneした`02_htmlcss-...`は以下の構造をしています。
 
 入力後、ブラウザで`helloWorld.html`を開いてください。
 以下のように表示されればOKです。
-![](./images/Hello%2CWorld.jpg){: style="width: 660px;height: auto;" }
+![](./images/Hello,World.jpeg){: style="width: 660px;height: auto;" }
 
 ## 具体的なHTMLのサンプルを見てみよう
 
