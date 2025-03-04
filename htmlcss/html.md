@@ -27,11 +27,9 @@ cloneした`02_htmlcss-...`は以下の構造をしています。
 ```
 
 `helloWorld.html`を開き、以下のコードを入力してください。<br>
-※`<!-- -->`はHTMLのコメントアウトを表します。
-コメントアウトされた部分はブラウザに表示されません。
 
 `helloWorld.html`
-```html:helloWorld.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
     <head>
@@ -40,7 +38,6 @@ cloneした`02_htmlcss-...`は以下の構造をしています。
     </head>
     <body>
         <p>Hello,World</p>
-        <p>0J0X0XX神戸電子</p>   <!--自分の出席番号と名前に書き換えてください-->
     </body>
 </html>
 ```
