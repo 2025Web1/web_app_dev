@@ -10,7 +10,7 @@ sort: 4
 - 紙ベースの教科書なし
 - フロントエンドプログラム(HTML/CSS)の学習に以下の学習サイトを利用
   - [Progate(プロゲート)](https://prog-8.com/dashboard)
-  - [paiza](https://paiza.jp/)
+  - [paiza(パイザ)](https://paiza.jp/)
 
 ## Web資料の用語解説
 
@@ -19,7 +19,7 @@ sort: 4
 ```note
 ```
 
-```tips
+```tip
 ```
 
 ```warning
