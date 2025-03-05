@@ -57,7 +57,7 @@ VSCodeで`sample.html`を開いてください。
 
 `sample.html`
 
-```html : sample.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
   <head>
