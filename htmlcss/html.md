@@ -118,7 +118,7 @@ VSCodeで`sample.html`を開いてください。
 
 ![](./images/sampleNoCSS.png){: style="width: 660px;height: auto;" }
 
-```tips
+```tip
 ### (付録)タグリファレンス
 
 HTMLサンプルで使用したタグのリファレンスです。
