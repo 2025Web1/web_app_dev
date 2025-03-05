@@ -56,7 +56,8 @@ cloneしたソースコードの中にこれらは記入済みです。
 VSCodeで`sample.html`を開いてください。
 
 `sample.html`
-```html
+
+```html:sample.html
 <!DOCTYPE html>
 <html lang="ja">
   <head>
@@ -71,7 +72,7 @@ VSCodeで`sample.html`を開いてください。
       <img src="pose_gutspose_couple.png" alt="サンプル画像">
     </p>
   
-    <table>
+    <table border="1">
       <tr>
         <th>商品名</th>
         <th>説明</th>
@@ -113,10 +114,15 @@ VSCodeで`sample.html`を開いてください。
 
 `sample.html`をブラウザで開いてみてください。
 以下のように表示されればOKです。
-![](./images/sampleNoCSS.jpg){: style="width: 660px;height: auto;" }
+タグを使用することにより、様々なコンテンツ(画像、表、入力フォームなど)がブラウザ上に表示されます。
+
+![](./images/sampleNoCSS.png){: style="width: 660px;height: auto;" }
 
 ```tips
 ### (付録)タグリファレンス
+
+HTMLサンプルで使用したタグのリファレンスです。
+タグは基本的に覚える必要はありませんが、どのようなタグがあるかを知っておくと、HTML文書の構造を理解しやすくなります。
 
 `<!DOCTYPE html>`：HTML文書のバージョンとタイプを指定する宣言です。この宣言がない場合、ブラウザはHTML5として解釈されます。
 

@@ -1,14 +1,25 @@
 # CSS(Cascading Style Sheets)
 
+先ほどお見せした以下の画面ですが、お世辞にも綺麗な画面とは言えませんね...
+
+![](./images/sampleNoCSS.png){: style="width: 660px;height: auto;" }
+
+この問題を解決するために、先ほどのHTMLにCSSを反映させましょう。
+
+## CSSとは
+
 Webページの見た目を指定する言語です。
-CSSは、HTMLで定義された構造にスタイルを適用することで、Webページを美しく、見やすくすることができます。
+CSSは、HTMLで定義された構造にスタイルを適用することで、Webページを美しく、見やすくデザインすることができます。
+
+それでは、先ほどのHTMLにCSSを反映させていきましょう。
+`sample.html`に、`sample.css`を反映するためのコードを追加します。
 
 ```html
 <!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <!-- ここから修正 -->
+    <!-- 以下の一文を追加 -->
     <link rel="stylesheet" href="sample.css">
     <!-- ここまで -->
     <title>サンプルWebページ</title>
@@ -61,10 +72,7 @@ CSSは、HTMLで定義された構造にスタイルを適用することで、W
 </html>
 ```
 
-お世辞にも綺麗な画面とは言えませんね...<br>
-原因はHTMLに、CSSが反映されていないからです。
-では、CSSを反映しましょう。
-`sample.html`の以下の部分のコメントを外します。
+
 
 ```html:sample.html
 <!-- <link rel="stylesheet" href="sample.css"> -->
