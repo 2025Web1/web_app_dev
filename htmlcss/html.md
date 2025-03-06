@@ -28,7 +28,7 @@ cloneした`02_htmlcss-...`は以下の構造をしています。
 
 `helloWorld.html`を開き、以下のコードを入力してください。<br>
 
-`helloWorld.html`
+**helloWorld.html**
 ```html
 <!DOCTYPE html>
 <html lang="ja">
