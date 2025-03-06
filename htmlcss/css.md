@@ -11,15 +11,108 @@
 Webページの見た目を指定する言語です。
 CSSは、HTMLで定義された構造にスタイルを適用することで、Webページを美しく、見やすくデザインすることができます。
 
-それでは、先ほどのHTMLにCSSを反映させていきましょう。
-`sample.html`に、`sample.css`を反映するためのコードを追加します。
+今回は、あらかじめ以下のような`sample.css`を用意しています。
+
+`sample.css`
+
+```css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+a {
+  color: #333;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+img {
+  max-width: 5%;
+  height: auto;
+}
+```
+
+よく見ると、`body`や`table`などHTMLのタグ名が書かれています。
+これは、`body`や`table`などのタグに対して、CSSで指定されたスタイルを適用することができるということです。
+例えば以下の場合は、`body`タグに対して、
+
+- フォントをArialに指定
+- 背景色を`#f5f5f5`に指定
+- 余白を20pxに指定
+
+というスタイルが適用されます。
+なお、他のスタイルや詳細なCSSの書き方については、[MDN Web Docs](https://developer.mozilla.org/ja/docs/Web/CSS)などを参考にしてください。
+
+```css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+```
+
+## HTMLにCSSを反映させる
+
+先ほどのHTMLにCSSを反映させましょう。
+`sample.html`に、`sample.css`を反映するための一文を追加します。
 
 ```html
 <!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <!-- 以下の一文を追加 -->
+    <!-- 以下の一文を追加することで、sample.cssを反映させることができます -->
     <link rel="stylesheet" href="sample.css">
     <!-- ここまで -->
     <title>サンプルWebページ</title>
@@ -32,7 +125,7 @@ CSSは、HTMLで定義された構造にスタイルを適用することで、W
       <img src="pose_gutspose_couple.png" alt="サンプル画像">
     </p>
   
-    <table>
+    <table border="1">
       <tr>
         <th>商品名</th>
         <th>説明</th>
@@ -72,18 +165,8 @@ CSSは、HTMLで定義された構造にスタイルを適用することで、W
 </html>
 ```
 
+では、もう一度ブラウザで`sample.html`を開いてみてください。
+CSSで指定したスタイルが反映され、画面が綺麗になりました。<br>
+![](./images/sampleCSS.png){: style="width: 660px;height: auto;" }
 
 
-```html:sample.html
-<!-- <link rel="stylesheet" href="sample.css"> -->
-```
-
-コメントの外し方は、該当の行で`Ctrl + /`です。
-コメントを外すと以下のようになります。
-
-```html:sample.html
-<link rel="stylesheet" href="sample.css">
-```
-
-では、もう一度ブラウザで`sample.html`を開いてみてください。CSSが動き、画面が綺麗になりました。<br>
-![](./images/sampleCSS.jpg)

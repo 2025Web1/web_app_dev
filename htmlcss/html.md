@@ -55,8 +55,7 @@ cloneした`02_htmlcss-...`は以下の構造をしています。
 cloneしたソースコードの中にこれらは記入済みです。
 VSCodeで`sample.html`を開いてください。
 
-`sample.html`
-
+**sample.html**
 ```html
 <!DOCTYPE html>
 <html lang="ja">
