@@ -2,10 +2,15 @@
 sort: 2
 ---
 
-# Git、GitHub関連の用語解説
+# Git、GitHubの用語解説
 
 GitHub Classroomを利用するにあたり、GitやGitHubに関する用語を解説します。
 なお、本来のバージョン管理ツールであるGit、GitHubの使い方については、夏のセミナーにて解説します。
+
+以下は解説する用語がどのように関連しているかを示す図です。
+解説を見ながら、どのように関連しているかをイメージしてください。
+
+![](./images/git_image.jpg){: style="width: 660px;height: auto;" }
 
 ## リポジトリ(Repository)
 
@@ -48,5 +53,3 @@ Gitで変更をステージングエリアに追加するコマンドです。�
 
 ローカルリポジトリの変更をリモートリポジトリに反映するコマンドです。
 変更をリモートリポジトリに送信し、共有されたプロジェクトに変更を適用します。
-
-![](./images/git_image.jpg){: style="width: 660px;height: auto;" }
